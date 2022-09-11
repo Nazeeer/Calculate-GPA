@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate GPA</title>
+    <link rel="stylesheet" href="css-desgin.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="icon" href="logo3.png" type="image/icon">
+</head>
+<body>
+    <div class="header">
+        <div class="left-side">
+    <img src="logo3.png" alt="">
+    <h1> GPA Calculator</h1>
+</div>
+<div class="center-side">
+    <h1>College GPA Calculator:-</h1><br>
+    <p>  Calculate and save your college GPA, log semester performance and track your entire academic career.</p>
+    <div class="main-project">
+        <br><br>
+        <table id="myTable">
+            <thead><h2>semester 1:-</h2></thead>
+            <tbody id="table-body">
+            </tbody>
+        </table>
+        <br>
+        <h4>Semester 1 GPA : <output id="result">0.00</output> <button onclick="createCourse()">Add Course</button> <button onclick="createElements()">Add Semester</button></h4>
+    </div>
+    <br>
+    <hr>
+    <br>
+    <button class="button-calculates" onclick="calculation()">Calculate GPA</button>
+</div >
+    <script src="disgen-GPA.js"></script>
+</body>
+</html>

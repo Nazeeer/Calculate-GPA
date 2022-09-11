@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Barlow", "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, STXihei, "华文细黑", sans-serif;
+}
+.header{
+    background-color: #95caf3;
+    width: 70%;
+    margin: 100px 260px;
+    border-radius: 8px;
+    min-height: 95vh;
+}
+.header .left-side img{
+    width: 70px;
+}
+.header .left-side{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    letter-spacing: 1px;
+}
+.header .left-side h1{
+    padding-left: 8px;
+}
+.header .center-side{
+    /* text-align: center; */
+    padding: 30px 45px;
+    letter-spacing: 1px;
+}
+.main-project{
+    background-color: white;
+    margin-top: 70px;
+    border-radius: 7px;
+    padding: 30px;
+}
+input ,select{
+    border: 1px solid #E0E2E6;
+    border-top-left-radius: 0.25rem;
+    height: 3rem;
+    padding: 0 0 0 1rem;
+    font-size: 1.125rem;
+}
+button{
+    border-radius: 15px;
+    width: 100px;
+    border: 1px solid rgb(76, 76, 235);
+    padding: 6px;
+    background-color: transparent;
+    color: rgb(76, 76, 235);
+}
+button:hover{
+    border: 1px solid rgb(228, 228, 108);
+    color: rgb(228, 228, 108);
+}
+.button-calculates{
+    width: 140px;
+}
+i{
+    padding-left: 16px;
+    font-size: 23px;
+    color: gray;
+    transition: .5s;
+}
+i:hover{
+    color: rgb(228, 228, 108);
+}
